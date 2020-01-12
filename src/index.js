@@ -810,6 +810,7 @@ export default class InputNumber extends React.Component {
             ref={this.saveInput}
             value={inputDisplayValue}
             pattern={props.pattern}
+            inputMode={props.inputMode}
             {...dataOrAriaAttributeProps}
           />
         </div>
